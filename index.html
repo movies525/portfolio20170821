@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>index</title>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Monoton" rel="stylesheet">
+	<style type="text/css">
+		.navbar-fixed-top{
+		  position: fixed; /* <-- Look here */
+		  right: 0;
+		  left: 0;
+		  z-index: 1030;
+		}
+		.jumbotron{
+			background-color: #10111F;
+			border-radius: 0rem;
+		}
+		.mainTop{
+			text-align: center;
+			color: white;
+		}
+		.mainTop .material-icons{
+			color: #FF854A;
+			font-size: 2rem;
+		}
+		.title{
+			font-family: 'Bad Script', cursive;
+			font-size: 2rem;
+		}
+		.title2{
+			font-family: 'Monoton', cursive;
+		}
+		.btn-go{
+			border: 3px solid #FF854A;
+			-webkit-border-radius: 10rem;
+			        border-radius: 10rem;
+			    color: #FF854A;
+			    font-weight: bold;
+			cursor: pointer;
+		}
+		.card-bottom{
+			margin-bottom: 1rem;
+		}
+		@media (min-width: 48em){
+			.container {
+		    max-width: 46rem;
+		}
+		}
+		@media (max-width: 600px){
+			#video{
+				max-width: 500px;
+			}
+		}
+
+	</style>
+</head>
+<body>
+<div class="navbar-fixed-top">
+<nav class="navbar navbar-light bg-faded">
+  <a class="navbar-brand" href="#">Apo Design</a>
+  <ul class="nav nav-pills">
+  <li class="nav-item active">
+      <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#web">Web<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#graphic">Graphic<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#3D">3D</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#industrial">Industrial</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#media">Media</a>
+    </li>
+  </ul>
+</nav>
+</div>
+<div class="jumbotron mainTop">
+	<i class="material-icons">grade</i>
+ 	<p class="lead title">I am Apo Liao.</p>
+	<h1 class="display-3 title2">Designer</h1>
+	<!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+	<hr class="m-y-md">
+	<!-- <p class="lead"> -->
+    	<a href="#web"><button type="button" class="btn btn-secondary btn-go">LET'S GET TO WORK</button></a>
+  	<!-- </p> -->
+</div>
+<div class="container">
+	<div id="about">
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="img/apo300.png">
+			</div>
+			<div class="col-lg-6">
+				<h1 class="title2">ABOUT</h1>
+				<p>Hello!My name is Apo Liao.<br>
+				I'm a lively, optimistic, and easy-going person.<br>
+				My department is 3D animation in university,using Maya.<br>
+				My hobbies are swimming,jogging and coding.<br>
+				Excellent at HTML5&CSS writing.<br>
+				Love to web layout.<br>
+				Also javascript and jquery are ok.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/3lfBkHV1tQA" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="row">
+		<div class="col-lg-12">
+			<h1 class="title2">Graphic</h1>
+			<div class="card-deck-wrapper">
+				<div class="card-deck card-bottom">
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/post_animal.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">壽山動物園海報</h5>
+						    <p class="card-text">AI/實習於蘋果劇團作品</p>
+		  				</div>
+					</div>
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/post_blood.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">血的淚專題海報</h5>
+						    <p class="card-text">PS/手繪風格</p>
+		  				</div>
+					</div>
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/post_choose.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">演員徵選海報</h5>
+						    <p class="card-text">AI+PS/戲劇為民初台灣復古風格</p>
+		  				</div>
+					</div>
+				</div>
+				<div class="card-deck card-bottom">
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/post_musicclass.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">音樂教室招生海報</h5>
+						    <p class="card-text">AI+PS/好的音樂教育是給小孩的最好的禮物</p>
+		  				</div>
+					</div>
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/higo.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">血的淚專題海報</h5>
+						    <p class="card-text">PS/手繪風格</p>
+		  				</div>
+					</div>
+					<div class="card col-sm-4">
+					  	<img class="card-img-top" data-src="holder.js/100%x180/" alt="Card image cap" src="img/post_choose.jpg">
+					  	<div class="card-block">
+						    <h5 class="card-title">演員徵選海報</h5>
+						    <p class="card-text">AI+PS/戲劇為民初台灣復古風格</p>
+		  				</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div id="web">
+		<h1 class="title2">Web</h1>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/E3Jk8zPkE8M" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+	</div>
+	<div id="graphic">
+		<h1 class="title2">Graphic</h1>
+		<div class="card-columns">
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/post_animal.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">壽山動物園中秋海報</h4>
+		      <p class="card-text">AI/實習於蘋果劇團作品</p>
+		    </div>
+		  </div>
+		   <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/post_musicclass.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">音樂教室招生海報</h4>
+		      <p class="card-text">AI+PS/好的音樂教育是給小孩的最好的禮物</p>
+		    </div>
+		  </div>
+		   <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/post_choose.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">演員徵選海報</h4>
+		      <p class="card-text">AI+PS/戲劇為民初台灣復古風格</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/post_blood.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">血的淚專題海報</h4>
+		      <p class="card-text">PS/瞳孔反射出兇手的身影 手繪風格</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/higo.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">全球手店招商海報</h4>
+		      <p class="card-text">AI/條列式清楚簡約呈現</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/postcard_front.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">音樂教室名片</h4>
+		      <p class="card-text">AI+PS/以教學黑板為發想</p>
+		    </div>
+		  </div>
+		 <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/postcard_back.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">音樂教室名片</h4>
+		      <p class="card-text">AI+PS/將主要教學項目以圖示凸顯</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/postcard_project.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">個人名片</h4>
+		      <p class="card-text">AI/以專題內角色兩人幫為主視覺</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/postcard_musicclass01.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">音樂教室布條</h4>
+		      <p class="card-text">PS/老師用教育灌溉著孩子</p>
+		    </div>
+		  </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/project_stiker.jpg">
+			 <div class="card-block">
+			   <h4 class="card-title">Appearance周邊貼紙</h4>
+			   <p class="card-text">AI/專題的主場景天空之島 將MASK變成鳥</p>
+			 </div>
+		 </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/project_treeboy.png">
+			 <div class="card-block">
+			   <h4 class="card-title">Appearance周邊布章</h4>
+			   <p class="card-text">AI/專題5*5cm樹人小布章周邊商品</p>
+			 </div>
+		 </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/projectmask.png">
+			 <div class="card-block">
+			   <h4 class="card-title">Appearance周邊布章</h4>
+			   <p class="card-text">AI/專題5*5cm面具小布章周邊商品</p>
+			 </div>
+		 </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/summerho.jpg">
+			 <div class="card-block">
+			   <h4 class="card-title">室友Q版插畫</h4>
+			   <p class="card-text">PS/我的大學室友</p>
+			 </div>
+		 </div>
+		  <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/mary.jpg">
+			 <div class="card-block">
+			   <h4 class="card-title">瑪麗蓮夢露Q版插畫</h4>
+			   <p class="card-text">PS/監獄寶寶版</p>
+			 </div>
+		 </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/logo_apple3.png">
+			 <div class="card-block">
+			   <h4 class="card-title">藍領劇團logo</h4>
+			   <p class="card-text">AI/蘋果劇團實習 藍領是代表勞動階級</p>
+			 </div>
+		 </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/illustration_colorfulmix.jpg">
+			 <div class="card-block">
+			   <h4 class="card-title">三種動物融合插畫</h4>
+			   <p class="card-text">PS/蝗蟲的腿+貓咪+熱帶魚</p>
+			 </div>
+		 </div>
+		</div>
+	</div>
+	<div id="3D">
+		<h1 class="title2">3D</h1>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/bRTOrtuS_wU" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/DYycDPznYeY" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+		<div class="card-columns">
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_island.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance場景</h4>
+		      <p class="card-text">MAYA/空中之島3D建模</p>
+		    </div>
+		  </div>
+		   <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_store.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance場景</h4>
+		      <p class="card-text">MAYA/面具店3D建模</p>
+		    </div>
+		  </div>
+		   <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_treeboy.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance角色</h4>
+		      <p class="card-text">MAYA/男主角小男孩3D建模</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_bigfoot.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance角色</h4>
+		      <p class="card-text">MAYA/兩人幫-大腳怪</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_bighand.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance角色</h4>
+		      <p class="card-text">MAYA/兩人幫-大手怪3D建模</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_boss.png">
+		    <div class="card-block">
+		      <h4 class="card-title">Appearance角色</h4>
+		      <p class="card-text">MAYA/反派老闆3D建模</p>
+		    </div>
+		  </div>
+		 <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_dolphin.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">海豚3D建模</h4>
+		      <p class="card-text">MAYA/大二作品</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_robot.JPG">
+		    <div class="card-block">
+		      <h4 class="card-title">機器人3D建模</h4>
+		      <p class="card-text">MAYA/大三作品</p>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_station_front.jpg">
+		    <div class="card-block">
+		      <h4 class="card-title">旗山車站3D建模</h4>
+		      <p class="card-text">3D MAX/旗山五分車站</p>
+		    </div>
+		  </div>
+		 <div class="card">
+			 <img class="card-img-top" data-src="holder.js/100%x160/" alt="Card image cap" src="img/3D_station_side.jpg">
+			 <div class="card-block">
+			   <h4 class="card-title">旗山車站3D建模</h4>
+			   <p class="card-text">3D MAX/旗山五分車站</p>
+			 </div>
+		 </div>
+		</div>
+	</div>
+	<div id="industrial">
+		<h1 class="title2">Industrial</h1>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/wd8O9799Jpk" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+	</div>
+	<div id="media">
+		<h1 class="title2">Media</h1>
+		<div class="row">
+			<div class="col-lg-12">
+				<iframe width="680" height="315"
+							src="https://www.youtube.com/embed/EH-w8Hb5ui4" frameborder="0" allowfullscreen id="video">
+				</iframe>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="https://cdn.bootcss.com/jquery/1.12.3/jquery.min.js"></script>
+	<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+</body>
+</html>
